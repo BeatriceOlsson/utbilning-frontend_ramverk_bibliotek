@@ -25,5 +25,11 @@ class Timer extends React.Component () {
         </div>
     }
 }
+//export default Timer;
 
-export default Timer;
+function HelowUser ({userName}) {
+    console.log('Fungerar');
+    return <div>Hej {userName}!</div>
+}
+
+export default HelowUser;
